@@ -24,7 +24,7 @@
                         <ColumnDefinition Width="0*"/>
                     </Grid.ColumnDefinitions>
                     <Button x:Name="btnAlumno" Content="Alumno" HorizontalAlignment="Left" Margin="30,26,0,0" VerticalAlignment="Top" Width="70" Height="26" Background="White" FontSize="16" Click="btnAlumno_Click" Foreground="#FF00417B"/>
-                    <Button x:Name="btnDocente" Content="Docente" HorizontalAlignment="Left" Margin="30,85,0,0" VerticalAlignment="Top" Width="80" Height="26" Background="White" FontSize="16" Click="btnDocente_Click" Foreground="#FF00417B"/>
+                    <Button x:Name="btnDocente" Content="Docente" HorizontalAlignment="Left" Margin="30,92,0,0" VerticalAlignment="Top" Width="80" Height="26" Background="White" FontSize="16" Click="btnDocente_Click" Foreground="#FF00417B"/>
                     <Button x:Name="btnAdministrativo" Content="Administrativo" HorizontalAlignment="Left" Margin="30,152,0,0" VerticalAlignment="Top" Width="156" Height="25" Background="White" FontSize="16" Click="btnAdministrativo_Click" Foreground="#FF00417B"/>
                 </Grid>
             </TabItem>

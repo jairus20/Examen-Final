@@ -5,8 +5,57 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CapaPresentacion"
         mc:Ignorable="d"
-        Title="frmIngresante" Height="450" Width="800">
+        Title="Alumno Ingresante" Height="744.484" Width="771.5" Background="#FF00417B">
     <Grid>
-        
+        <Label Content="Apellidos" HorizontalAlignment="Left" Margin="285,25,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="OCR A Extended" Foreground="White"/>
+        <Label Content="Correo" HorizontalAlignment="Left" Margin="44,122,0,0" VerticalAlignment="Top" FontFamily="OCR A Extended" FontSize="18" Foreground="White"/>
+        <Label Content="Domicilio" HorizontalAlignment="Left" Margin="44,225,0,0" VerticalAlignment="Top" FontFamily="OCR A Extended" FontSize="18" Foreground="White"/>
+        <Label Content="Codigo" HorizontalAlignment="Left" Margin="550,25,0,0" VerticalAlignment="Top" FontFamily="OCR A Extended" FontSize="18" Foreground="White"/>
+        <Label Content="Lugar Nacimiento" HorizontalAlignment="Left" Margin="44,333,0,0" VerticalAlignment="Top" FontFamily="OCR A Extended" FontSize="18" Foreground="White"/>
+        <Label Content="Fecha de Nacimiento" HorizontalAlignment="Left" Margin="386,333,0,0" VerticalAlignment="Top" FontFamily="OCR A Extended" FontSize="18" Foreground="White"/>
+        <Label Content="Nombres" HorizontalAlignment="Left" Margin="44,25,0,0" VerticalAlignment="Top" FontFamily="OCR A Extended" FontSize="18" Foreground="White"/>
+        <Label Content="Escuela" HorizontalAlignment="Left" Margin="44,463,0,0" VerticalAlignment="Top" FontFamily="OCR A Extended" FontSize="18" Foreground="White"/>
+        <Label Content="Seguro" HorizontalAlignment="Left" Margin="285,122,0,0" VerticalAlignment="Top" FontFamily="OCR A Extended" FontSize="18" Foreground="White"/>
+        <Label Content="Puesto Examen de Ingreso" HorizontalAlignment="Left" Margin="44,571,0,0" VerticalAlignment="Top" FontFamily="OCR A Extended" FontSize="18" Foreground="White"/>
+        <Label Content="Metodo de Ingreso" HorizontalAlignment="Left" Margin="326,463,0,0" VerticalAlignment="Top" FontFamily="OCR A Extended" FontSize="18" Foreground="White"/>
+        <TextBox x:Name="txtNombres" HorizontalAlignment="Left" Height="23" Margin="44,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184"/>
+        <TextBox x:Name="txtApellidos" HorizontalAlignment="Left" Height="23" Margin="285,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <TextBox x:Name="txtCodigo" HorizontalAlignment="Left" Height="23" Margin="550,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <TextBox x:Name="txtCorreo" HorizontalAlignment="Left" Height="23" Margin="44,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <TextBox x:Name="txtSeguro" HorizontalAlignment="Left" Height="23" Margin="285,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" RenderTransformOrigin="0.083,0.717"/>
+        <TextBox x:Name="txtDomicilio" HorizontalAlignment="Left" Height="23" Margin="44,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <ComboBox x:Name="cboLugarNac" HorizontalAlignment="Left" Margin="44,387,0,0" VerticalAlignment="Top" Width="170">
+            <ComboBoxItem Content="Cusco"/>
+            <ComboBoxItem Content="Arequipa"/>
+            <ComboBoxItem Content="Lima"/>
+            <ComboBoxItem Content="Ucayali"/>
+            <ComboBoxItem Content="Puno"/>
+            <ComboBoxItem Content="Tacna"/>
+        </ComboBox>
+        <DatePicker x:Name="dtpFechaNac" HorizontalAlignment="Left" Margin="386,387,0,0" VerticalAlignment="Top" Height="49" Width="216"/>
+        <ComboBox x:Name="cboEscuela" HorizontalAlignment="Left" Margin="44,519,0,0" VerticalAlignment="Top" Width="170">
+            <ComboBoxItem Content="Educacion"/>
+            <ComboBoxItem Content="Turismo"/>
+            <ComboBoxItem Content="Enfermería"/>
+            <ComboBoxItem Content="Medicina Humana"/>
+            <ComboBoxItem Content="Psicología"/>
+            <ComboBoxItem Content="Administración"/>
+            <ComboBoxItem Content="Contabilidad"/>
+            <ComboBoxItem Content="Marketing"/>
+            <ComboBoxItem Content="Derecho"/>
+            <ComboBoxItem Content="Arquitectura"/>
+            <ComboBoxItem Content="Ingeniería Civil"/>
+            <ComboBoxItem Content="Ingeniería de Sistemas"/>
+        </ComboBox>
+        <ComboBox x:Name="cboMetodoIn" HorizontalAlignment="Left" Margin="326,519,0,0" VerticalAlignment="Top" Width="170">
+            <ComboBoxItem Content="Ordinario"/>
+            <ComboBoxItem Content="Primera Opcion"/>
+            <ComboBoxItem Content="CPCPI"/>
+        </ComboBox>
+        <TextBox x:Name="txtPuestoIn" HorizontalAlignment="Left" Height="23" Margin="44,629,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <Button x:Name="btnEscribir" Content="Escribir" HorizontalAlignment="Left" Margin="385,612,0,0" VerticalAlignment="Top" Width="138" FontSize="18" FontFamily="OCR A Extended" Height="40" Click="btnEscribir_Click"/>
+        <Button x:Name="btnLeer" Content="Leer" HorizontalAlignment="Left" Margin="594,616,0,0" VerticalAlignment="Top" Width="138" FontSize="18" FontFamily="OCR A Extended" Height="36" Click="btnLeer_Click"/>
+        <ListBox HorizontalAlignment="Left" Height="0" Margin="326,206,0,0" VerticalAlignment="Top" Width="0"/>
+
     </Grid>
 </Window>

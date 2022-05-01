@@ -23,5 +23,24 @@ namespace CapaPresentacion
         {
             InitializeComponent();
         }
+
+
+        private void btnIngresante_Click(object sender, RoutedEventArgs e)
+        {
+            // Llamar a formulario Docente
+            frmIngresante frm = new frmIngresante();
+
+            //Mostrar el fromulario
+            frm.Show();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            // Llamar a formulario Docente
+            frmRegular frm = new frmRegular();
+
+            //Mostrar el fromulario
+            frm.Show();
+        }
     }
 }

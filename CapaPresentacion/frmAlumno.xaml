@@ -11,8 +11,10 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button Content="Regular" HorizontalAlignment="Left" Margin="125,31,0,0" VerticalAlignment="Top" Width="112" FontFamily="OCR A Extended" Background="Red" Foreground="White" Height="33"/>
-        <Button Content="Ingresante" HorizontalAlignment="Left" Margin="146,31,0,0" VerticalAlignment="Top" Width="112" FontFamily="OCR A Extended" Background="Red" Foreground="White" Height="33" Grid.Column="1"/>
+        <Button x:Name="btnRegular" Content="Regular" HorizontalAlignment="Left" Margin="142,31,0,0" VerticalAlignment="Top" Width="112" FontFamily="OCR A Extended" Background="Red" Foreground="White" Height="33" FontSize="18" Click="Button_Click"/>
+        <Button x:Name="btnIngresante" Content="Ingresante" HorizontalAlignment="Left" Margin="121,31,0,0" VerticalAlignment="Top" Width="147" FontFamily="OCR A Extended" Background="Red" Foreground="White" Height="33" Grid.Column="1" FontSize="18" Click="btnIngresante_Click"/>
+        <Image Margin="35,88,28,37" Source="ingressante.jpg" Stretch="Fill" Grid.Column="1"/>
+        <Image Margin="31,88,32,37" Source="estudiantes-c.jpg" Stretch="Fill"/>
 
     </Grid>
 </Window>

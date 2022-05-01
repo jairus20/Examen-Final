@@ -39,7 +39,7 @@ namespace CapaPresentacion
 
         private void btnDocente_Click(object sender, RoutedEventArgs e)
         {
-            // Llamar a formulario Administrativo
+            // Llamar a formulario Docente
             frmDocente frm = new frmDocente();
 
             //Mostrar el fromulario
